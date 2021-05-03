@@ -68,7 +68,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   
   admin_ssh_key {
     username   = var.user
-    public_key = file("~/.ssh/privacera-dev.pub")
+    public_key = file("~/.ssh/sabya.pub")
   }
   tags = {
     environment = var.environment
